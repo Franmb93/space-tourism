@@ -1,0 +1,44 @@
+@import url('../App.scss');
+.navbar-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #fff;
+    svg {
+        position: absolute;
+        top: 4rem;
+        left: 3rem;
+    }
+    .rectangle {
+        position: absolute;
+        top: 5.4rem;
+        left: 15rem;
+        width: 52rem;
+        height: 1px;
+        background-color: #fff;
+        opacity: 0.25;
+        z-index: 1;
+    }
+    .navigation {
+        width: 55rem;
+        height: 5rem;
+        position: absolute;
+        left: calc(58% - 80px);
+        top: 3rem;
+        display: flex;
+        flex-direction: row;
+        flex: 0.1 0.1 auto;
+        justify-content: space-around;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+    }
+}

@@ -1,0 +1,49 @@
+.body-text-container {
+    position: absolute;
+    left: 165px;
+    top: 387px;
+    width: 29rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgba(208, 214, 249, 1);
+    .pre-title {
+        font-family: 'Barlow Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+        position: absolute;
+        height: 34px;
+        left: 0.11%;
+        right: 15.67%;
+        top: calc(50% - 34px/2 - 174px);
+    }
+    .title {
+        font-family: 'Bellefair';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 150px;
+        line-height: 172px;
+        position: absolute;
+        height: 172px;
+        left: -2%;
+        right: 1.11%;
+        top: calc(25% - 172px/2 - 47px);
+    }
+    .text-content {
+        font-family: 'Barlow';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        position: absolute;
+        height: 128px;
+        left: 0.11%;
+        right: 1.22%;
+        top: calc(50% - 128px/2 + 127px);
+    }
+}
